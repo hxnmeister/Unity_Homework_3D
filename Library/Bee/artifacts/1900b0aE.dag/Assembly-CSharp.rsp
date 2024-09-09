@@ -355,6 +355,8 @@
 "Assets/MouseLookHorizontal.cs"
 "Assets/MouseLookVertical.cs"
 "Assets/MovementInput.cs"
+"Assets/RayShooter.cs"
+"Assets/ReactiveTarget.cs"
 -langversion:9.0
 /deterministic
 /optimize+
