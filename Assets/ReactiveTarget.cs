@@ -5,10 +5,10 @@ using UnityEngine;
 public class ReactiveTarget : MonoBehaviour
 {
     [SerializeField]
-    private float maxHealth = 10.0F;
+    private int maxHealth = 10;
 
     [SerializeField]
-    private float health;
+    private int health;
 
     private bool isDead = false;
 
@@ -36,6 +36,8 @@ public class ReactiveTarget : MonoBehaviour
                 isHitted = true;
 
                 StartCoroutine(Death());
+                if(TryGetComponent<WanderingAI>(out WanderingAI component)) component.Kill();
+
                 Debug.Log("Target is dead!");
             }
             else

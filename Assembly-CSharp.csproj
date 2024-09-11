@@ -62,8 +62,12 @@
   <ItemGroup>
     <Compile Include="Assets\ReactiveTarget.cs" />
     <Compile Include="Assets\MouseLookVertical.cs" />
+    <Compile Include="Assets\FireballProjectile.cs" />
     <Compile Include="Assets\RayShooter.cs" />
     <Compile Include="Assets\MouseLookHorizontal.cs" />
+    <Compile Include="Assets\SceneScript.cs" />
+    <Compile Include="Assets\PlayerCharacter.cs" />
+    <Compile Include="Assets\WanderingAI.cs" />
     <Compile Include="Assets\MovementInput.cs" />
   </ItemGroup>
   <ItemGroup>
