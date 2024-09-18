@@ -60,15 +60,18 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.44f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ReactiveTarget.cs" />
-    <Compile Include="Assets\MouseLookVertical.cs" />
-    <Compile Include="Assets\FireballProjectile.cs" />
-    <Compile Include="Assets\RayShooter.cs" />
-    <Compile Include="Assets\MouseLookHorizontal.cs" />
-    <Compile Include="Assets\SceneScript.cs" />
-    <Compile Include="Assets\PlayerCharacter.cs" />
-    <Compile Include="Assets\WanderingAI.cs" />
-    <Compile Include="Assets\MovementInput.cs" />
+    <Compile Include="Assets\Scripts\SceneScript.cs" />
+    <Compile Include="Assets\Scripts\ReactiveTarget.cs" />
+    <Compile Include="Assets\Scripts\MovementInput.cs" />
+    <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
+    <Compile Include="Assets\Scripts\FireballProjectile.cs" />
+    <Compile Include="Assets\Scripts\MouseLookVertical.cs" />
+    <Compile Include="Assets\Scripts\RayShooter.cs" />
+    <Compile Include="Assets\Scripts\MouseLookHorizontal.cs" />
+    <Compile Include="Assets\Scripts\WanderingAI.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
