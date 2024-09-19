@@ -13,7 +13,7 @@ public class MovementInput : MonoBehaviour
     private float boostingSpeed;
 
     [SerializeField]
-    private float normalSpeed = 20.0F;
+    private float normalSpeed = 5.0F;
 
     [SerializeField]
     private float gravity = -9.8F;
@@ -23,12 +23,14 @@ public class MovementInput : MonoBehaviour
 
     private CharacterController _characterController;
     private Rigidbody _rigidbody;
+    private Animator _animator;
 
     // Start is called before the first frame update
     void Start()
     {
         _characterController = GetComponent<CharacterController>();
         _rigidbody = GetComponent<Rigidbody>();
+        _animator = GetComponentInChildren<Animator>();
 
         boostingSpeed = normalSpeed * 2.0F;
         currentSpeed = normalSpeed;
@@ -37,28 +39,45 @@ public class MovementInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftShift))
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+        bool isMoving = horizontal != 0 || vertical != 0;
+        
+
+        if (isMoving)
         {
-            currentSpeed = boostingSpeed;
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                currentSpeed = boostingSpeed;
+                _animator.SetBool("isRunning", true);
+            }
+            else
+            {
+                currentSpeed = normalSpeed;
+                _animator.SetBool("isRunning", false);
+                _animator.SetBool("isWalking", true);
+            }
         }
-        else if(Input.GetKeyUp(KeyCode.LeftShift))
+        else
         {
-            currentSpeed = normalSpeed;
+            _animator.SetBool("isWalking", false);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(_rigidbody.velocity.y) < 0.01F)
-        {
-            _rigidbody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-        }
-
-        float horizontal = Input.GetAxis("Horizontal") * currentSpeed;
-        float vertical = Input.GetAxis("Vertical") * currentSpeed;
-        Vector3 movement = new (horizontal, gravity, vertical);
+        Vector3 movement = new(horizontal * currentSpeed, gravity, vertical * currentSpeed);
 
         movement = Vector3.ClampMagnitude(movement, currentSpeed);
         movement *= Time.deltaTime;
         movement = transform.TransformDirection(movement);
 
         _characterController.Move(movement);
+
+        if (!isMoving)
+        {
+            _animator.SetBool("isIdle", true);
+        }
+        else
+        {
+            _animator.SetBool("isIdle", false);
+        }
     }
 }

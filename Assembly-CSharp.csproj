@@ -64,8 +64,10 @@
     <Compile Include="Assets\Scripts\ReactiveTarget.cs" />
     <Compile Include="Assets\Scripts\MovementInput.cs" />
     <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
+    <Compile Include="Assets\BasicMovementAnimations\Basic Motions\_ExampleScene\Scripts\RPMaterialLoader.cs" />
     <Compile Include="Assets\Scripts\FireballProjectile.cs" />
     <Compile Include="Assets\Scripts\MouseLookVertical.cs" />
+    <Compile Include="Assets\BasicMovementAnimations\Basic Motions\_ExampleScene\Scripts\RootmotionReset.cs" />
     <Compile Include="Assets\Scripts\RayShooter.cs" />
     <Compile Include="Assets\Scripts\MouseLookHorizontal.cs" />
     <Compile Include="Assets\Scripts\WanderingAI.cs" />

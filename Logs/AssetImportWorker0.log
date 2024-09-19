@@ -15,7 +15,7 @@ C:/Users/Chaklun/Documents/GitHub/Unity_Homework_3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58362
+64003
 Successfully changed project path to: C:/Users/Chaklun/Documents/GitHub/Unity_Homework_3D
 C:/Users/Chaklun/Documents/GitHub/Unity_Homework_3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/Chaklun/Documents/GitHub/Unity_Homework_3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2500]  Target information:
+Player connection [21800]  Target information:
 
-Player connection [2500]  * "[IP] 192.168.31.87 [Port] 0 [Flags] 2 [Guid] 3469324191 [EditorId] 3469324191 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [21800]  * "[IP] 192.168.31.87 [Port] 0 [Flags] 2 [Guid] 3915274509 [EditorId] 3915274509 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2500] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2500] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21800] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21800] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 9.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
@@ -72,46 +72,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009830 seconds.
-- Loaded All Assemblies, in  0.356 seconds
+Registered in 0.017638 seconds.
+- Loaded All Assemblies, in  0.691 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.267 seconds
-Domain Reload Profiling: 621ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  0.509 seconds
+Domain Reload Profiling: 1195ms
+	BeginReloadAssembly (230ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (140ms)
-		LoadAssemblies (101ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (225ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (138ms)
-			TypeCache.Refresh (136ms)
-				TypeCache.ScanAssembly (124ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (268ms)
+		AnalyzeDomain (275ms)
+			TypeCache.Refresh (272ms)
+				TypeCache.ScanAssembly (238ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (509ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (221ms)
+		SetupLoadedEditorAssemblies (406ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (15ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (157ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,7 +120,7 @@ Domain Reload Profiling: 621ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.631 seconds
+- Loaded All Assemblies, in  0.829 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -128,47 +128,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.568 seconds
-Domain Reload Profiling: 1195ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 1501ms
+	BeginReloadAssembly (199ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (385ms)
-		LoadAssemblies (283ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (521ms)
+		LoadAssemblies (396ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (164ms)
-				TypeCache.ScanAssembly (150ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (568ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (190ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (676ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (433ms)
+		SetupLoadedEditorAssemblies (489ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (330ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (376ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.94 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3564.
-Memory consumption went from 118.4 MB to 118.3 MB.
-Total: 3.145100 ms (FindLiveObjects: 0.238200 ms CreateObjectMapping: 0.192200 ms MarkObjects: 2.631600 ms  DeleteObjects: 0.081700 ms)
+Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3570.
+Memory consumption went from 119.2 MB to 119.1 MB.
+Total: 4.099600 ms (FindLiveObjects: 0.305900 ms CreateObjectMapping: 0.245300 ms MarkObjects: 3.414200 ms  DeleteObjects: 0.132800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,170 +186,272 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3806.904015 seconds.
-  path: Assets/Flame.mat
-  artifactKey: Guid(efdafbe6933a0f041983340f38cb99b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flame.mat using Guid(efdafbe6933a0f041983340f38cb99b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8b4502907f43fc718ec9ceaf4695199f') in 0.110713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Fireball.prefab
+  Time since last request: 38766.988685 seconds.
+  path: Assets/Prefabs/Fireball.prefab
   artifactKey: Guid(47fc63b77367416459ee456960aefa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fireball.prefab using Guid(47fc63b77367416459ee456960aefa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Start importing Assets/Prefabs/Fireball.prefab using Guid(47fc63b77367416459ee456960aefa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '17dc512bebfa1b22b1280b09059f2f5c') in 0.017485 seconds
+ -> (artifact id: '3ca23ba6a7117568705cdaf4a86ad459') in 0.169006 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 68.051346 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(f2088b8138aebe946978b296cd683678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(f2088b8138aebe946978b296cd683678) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1f5b43af90df94d9d3d727ded361c7b2') in 0.000566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.997202 seconds.
-  path: Assets/Materials/asphalt.mat
-  artifactKey: Guid(784cb048c45aa774d88820aa002357c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/asphalt.mat using Guid(784cb048c45aa774d88820aa002357c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 1055.255203 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - As Above, So Below.wav
+  artifactKey: Guid(3930f2df5ebd1304fbc920c606753ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - As Above, So Below.wav using Guid(3930f2df5ebd1304fbc920c606753ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6ccb653c6e53b1bffbbc432f98c1ff83') in 0.037937 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 341.902649 seconds.
-  path: Assets/SkySeries Freebie
-  artifactKey: Guid(e06dd9a5d23b0d54c9e0bf51b5dec695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie using Guid(e06dd9a5d23b0d54c9e0bf51b5dec695) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4da34c8e0adce71d730c8e03e96a7fcc') in 0.000799 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.249687 seconds.
-  path: Assets/SkySeries Freebie/6sidedCosmicCoolCloud.mat
-  artifactKey: Guid(f531e09e2ad2fb440b4eed7605863143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/6sidedCosmicCoolCloud.mat using Guid(f531e09e2ad2fb440b4eed7605863143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fa2699cc39ec40e6472836243942585f') in 0.199861 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SkySeries Freebie/HighFantasy.mat
-  artifactKey: Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/HighFantasy.mat using Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0550ffed59c6d0b20aab1fdbb5a10d46') in 0.062702 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SkySeries Freebie/UnearthlyRed.mat
-  artifactKey: Guid(5d133deeaa66ed445853e946ff25e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/UnearthlyRed.mat using Guid(5d133deeaa66ed445853e946ff25e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ac5820b16e28ac9988bf4982dade4749') in 0.034147 seconds
+ -> (artifact id: 'f519ecd1f6845fafae727418f05b1d8b') in 0.039242 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/SkySeries Freebie/6SidedMegaSun.mat
-  artifactKey: Guid(c52c5d7968fa6c9499b0b5752f899bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/6SidedMegaSun.mat using Guid(c52c5d7968fa6c9499b0b5752f899bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Into Insanity Vol. 2/grimyth - Ye who wished upon a star.wav
+  artifactKey: Guid(3406e5ae1e923984f9c809d807a8e8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Ye who wished upon a star.wav using Guid(3406e5ae1e923984f9c809d807a8e8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7cfdc1cfd581832f51c7922e95c1586b') in 0.014326 seconds
+ -> (artifact id: '89937ca0b721ee552a8aeb0cafc249bd') in 0.005874 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/SkySeries Freebie/Cloudymorning.mat
-  artifactKey: Guid(d9dca9ae1786c394f9e79c637aa9a7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/Cloudymorning.mat using Guid(d9dca9ae1786c394f9e79c637aa9a7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Fragmented II.wav
+  artifactKey: Guid(371aa26277d51e24b8b31283f18c3f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Fragmented II.wav using Guid(371aa26277d51e24b8b31283f18c3f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '69a34975eaada123a1e3b96d57137bb7') in 0.030297 seconds
+ -> (artifact id: 'b1e4c9f9a19d140a18b7a9e14feff782') in 0.007415 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/SkySeries Freebie/CoriolisNight4k.mat
-  artifactKey: Guid(d4454f71d85928744be7771e2143dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/CoriolisNight4k.mat using Guid(d4454f71d85928744be7771e2143dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Into Insanity Vol. 2/grimyth - Sad Clown.wav
+  artifactKey: Guid(d83804a1b4810ee4d81a04fd2b4f5a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Sad Clown.wav using Guid(d83804a1b4810ee4d81a04fd2b4f5a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd421dfae3023ee84f2738c799f5989bb') in 0.031096 seconds
+ -> (artifact id: 'a0b7caa0417d787125061e014fce962f') in 0.109280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Dungeon XIV.wav
+  artifactKey: Guid(94729aff5e76b954b82ff928dc149d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Dungeon XIV.wav using Guid(94729aff5e76b954b82ff928dc149d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a3202ad95025442df9520b5bb8fac98f') in 0.005980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Constructor.wav
+  artifactKey: Guid(661390a637393b84180c9992e8688fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Constructor.wav using Guid(661390a637393b84180c9992e8688fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38fd210ba3f713fc2317a0d05f618ea2') in 0.006016 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/SkySeries Freebie/PlanetaryEarth.mat
-  artifactKey: Guid(16bc8a9d5451ca44d8f70575adbece3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/PlanetaryEarth.mat using Guid(16bc8a9d5451ca44d8f70575adbece3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Into Insanity Vol. 2/grimyth - Tentamech.wav
+  artifactKey: Guid(aebb0c0aeadd3734da9ed69048e9aef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Tentamech.wav using Guid(aebb0c0aeadd3734da9ed69048e9aef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ed09398cb73fa2cafe79cca5b9da3787') in 0.030626 seconds
+ -> (artifact id: 'e59646924acf97e1cc90cd71d6134ee4') in 0.006999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Skybox 9.wav
+  artifactKey: Guid(e8a1ecff4ee76a54285bc6bb86c0a241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Skybox 9.wav using Guid(e8a1ecff4ee76a54285bc6bb86c0a241) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e1c77dd18cab727fb283fb927735294') in 0.006999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Temple of Foreboding.wav
+  artifactKey: Guid(79f0fff7b3aa7264da51dee59f77ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Temple of Foreboding.wav using Guid(79f0fff7b3aa7264da51dee59f77ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb201fc5d3bc41f6a2436ea58bce85c1') in 0.009704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Broken Strings.wav
+  artifactKey: Guid(fa62ce1fbcd615c4eb093328cf986c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Broken Strings.wav using Guid(fa62ce1fbcd615c4eb093328cf986c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '235dc299d84fb40ab6e0048edd55bf9d') in 0.006483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Tomorrow.wav
+  artifactKey: Guid(446f697831efe134b8d99168b33d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Tomorrow.wav using Guid(446f697831efe134b8d99168b33d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dfacdeea440e2e5344d9a0e9169ab073') in 0.006878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Wrathful Deity.wav
+  artifactKey: Guid(4329b778908fd294aa5939465c68284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Wrathful Deity.wav using Guid(4329b778908fd294aa5939465c68284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a74d73ba1084fbb266ac2202b2beaabf') in 0.006518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Silent Twin.wav
+  artifactKey: Guid(36bd5e4933a1c984586bf8dd9ad26396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Silent Twin.wav using Guid(36bd5e4933a1c984586bf8dd9ad26396) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8f8eb8ecbd6b44c3c93b8cd2357e1b5') in 0.005427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Buttoned Up.wav
+  artifactKey: Guid(8daa377b496cbbb4eac834563e35e246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Buttoned Up.wav using Guid(8daa377b496cbbb4eac834563e35e246) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4d38d2d35b3ef3cd5fac5de755a29602') in 0.005429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Deleting Earth.exe.wav
+  artifactKey: Guid(7a60993f08e508a44961709e41081ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Deleting Earth.exe.wav using Guid(7a60993f08e508a44961709e41081ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2607a1ab447812b33b101768f4c00b12') in 0.006356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Staring Contest.wav
+  artifactKey: Guid(5212fb696092cc44d8003151ed71300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Staring Contest.wav using Guid(5212fb696092cc44d8003151ed71300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f545972c7e967add82e589c7198318cf') in 0.007451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Is This Heaven.wav
+  artifactKey: Guid(f513f65d92c0c63439aa8ac9b1b4b0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Is This Heaven.wav using Guid(f513f65d92c0c63439aa8ac9b1b4b0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a81d8d944aa9ab2ef9776b0b858b0c9') in 0.005049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Night Walker.wav
+  artifactKey: Guid(a9dd29cb3580a714c82262c4c905303f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Night Walker.wav using Guid(a9dd29cb3580a714c82262c4c905303f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c5e0422a6eb9cd7fb7787b74f0830ce') in 0.006296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Metropolis.wav
+  artifactKey: Guid(fbb5c36547d18fa458dba287772c4dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Metropolis.wav using Guid(fbb5c36547d18fa458dba287772c4dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7c72dbd9708f8ea31638a4d480fd1a5b') in 0.005066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Dungeon XI.wav
+  artifactKey: Guid(01b35d01768a4ce4a9014015e46e2398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Dungeon XI.wav using Guid(01b35d01768a4ce4a9014015e46e2398) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36e1ed6690270f689b7f38a577f52b79') in 0.031063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Skybox 7.wav
+  artifactKey: Guid(9459e9c0b132f1c478b4f2da0dc69dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Skybox 7.wav using Guid(9459e9c0b132f1c478b4f2da0dc69dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e88632e52a2f582e93758a35fad09f5') in 0.006279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Call of The Sea II.wav
+  artifactKey: Guid(cd2f57cd998cdc544b4717221f83daa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Call of The Sea II.wav using Guid(cd2f57cd998cdc544b4717221f83daa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e448e93bcce667420255387df6536d05') in 0.006966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - No Return II.wav
+  artifactKey: Guid(31ec30162d0b6fa40b964c6d9b5d3f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - No Return II.wav using Guid(31ec30162d0b6fa40b964c6d9b5d3f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71eb89ac155d52fc4f95e81ee858ba48') in 0.004957 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat
-  artifactKey: Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat using Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Into Insanity Vol. 2/grimyth - Gemma.wav
+  artifactKey: Guid(4a2cc19bb6ef22244916584339e25e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Gemma.wav using Guid(4a2cc19bb6ef22244916584339e25e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'af4194e85f30a5fdacf8b1ff82093779') in 0.025410 seconds
+ -> (artifact id: 'faf71d2bf70a96ec82246a944188d74d') in 0.029435 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SkySeries Freebie/CloudedSunGlow.mat
-  artifactKey: Guid(e391f00234292cc4f935308c11cf0e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/CloudedSunGlow.mat using Guid(e391f00234292cc4f935308c11cf0e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Skybox 4.wav
+  artifactKey: Guid(49cbcb61dc7cbf54fb97d6438aafbb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Skybox 4.wav using Guid(49cbcb61dc7cbf54fb97d6438aafbb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3d631b777e565b170064ba5fa59e7d02') in 0.030443 seconds
+ -> (artifact id: '0fd9946cdd7c95d0c508d7d3a2989f79') in 0.004492 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SkySeries Freebie/CasualDay.mat
-  artifactKey: Guid(85cf0b004bc4a654b9e501efcce47902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/CasualDay.mat using Guid(85cf0b004bc4a654b9e501efcce47902) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Into Insanity Vol. 2/grimyth - Grandma's Old Record Player.wav
+  artifactKey: Guid(78defea10bd38484d8b61dc7fc4c22e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Into Insanity Vol. 2/grimyth - Grandma's Old Record Player.wav using Guid(78defea10bd38484d8b61dc7fc4c22e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '79d12379215c2b52734cd1adb51bd556') in 0.028948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 17.782461 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr
-  artifactKey: Guid(a779becf00399924184cd13e046a100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr using Guid(a779becf00399924184cd13e046a100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9a6f3f69b4c8cd88e2efea033856286e') in 0.027299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudTop.hdr
-  artifactKey: Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudTop.hdr using Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b290444a571803504f7e0e9ccd5e65fb') in 0.008752 seconds
+ -> (artifact id: '54facc7f76ef494847396dea82008a51') in 0.004968 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

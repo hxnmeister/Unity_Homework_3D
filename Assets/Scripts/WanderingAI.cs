@@ -40,7 +40,7 @@ public class WanderingAI : MonoBehaviour
                 if(!fireball)
                 {
                     fireball = Instantiate(FireballPrefab);
-                    fireball.transform.SetPositionAndRotation(transform.TransformPoint(Vector3.forward * 1.5F), transform.rotation);
+                    fireball.transform.SetPositionAndRotation(transform.TransformPoint(new Vector3(0, 1F, 1.5F)), transform.rotation);
                 }
             }
             else if (hit.distance < obsctacleRange)
